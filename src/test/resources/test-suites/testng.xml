@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite" parallel="tests" thread-count="100">
+    <listeners>
+        <listener class-name="com.Listener.TestListener"/>
+    </listeners>
+    <test name="Passenger-1">
+        <parameter name="numberOfpassengers" value="4"></parameter>
+        <parameter name="priceval" value="$2338 USD"></parameter>
+
+        <classes>
+            <class name="com.dockerpomvims.testcases.FlightReservation">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Passenger-2">
+        <parameter name="numberOfpassengers" value="3"></parameter>
+        <parameter name="priceval" value="$1753 USD"></parameter>
+        <classes>
+            <class name="com.dockerpomvims.testcases.FlightReservation">
+            </class>
+        </classes>
+    </test>
+
+</suite>

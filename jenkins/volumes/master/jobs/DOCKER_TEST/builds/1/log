@@ -1,0 +1,11 @@
+Started by user [8mha:////4NpzpPn34pagPkHVLCegvZMDFRNXlLV3GVTKLCA4JWV9AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4Pt+G5oeB3Im1pACOR4Obcdm4t/EbX6Tvj85fYR/f0ZMAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQifT9/F1dDAHjR2ovEAAAA[0mNODE1 in workspace /Users/sangramkumar.das/Documents/git/DockerPOMVims/volumes/slave/workspace/DOCKER_TEST
+[DOCKER_TEST] $ /bin/sh -xe /var/folders/n_/5z9szxc51l1dl92pvl8wf6kc0000gp/T/jenkins10749067574306924063.sh
++ docker ps
+CONTAINER ID   IMAGE                          COMMAND                  CREATED          STATUS          PORTS                                              NAMES
+f31ba7f3d57b   jenkins/jenkins:lts            "/usr/bin/tini -- /u…"   30 minutes ago   Up 30 minutes   0.0.0.0:8080->8080/tcp, 0.0.0.0:50000->50000/tcp   jenkins-jenkins-1
+95a352540df3   seleniarm/node-firefox:4.20    "/opt/bin/entry_poin…"   8 hours ago      Up 5 hours      5900/tcp                                           dockerpomvims-firefox-1
+1c513c79e0a7   seleniarm/node-chromium:4.20   "/opt/bin/entry_poin…"   8 hours ago      Up 5 hours      5900/tcp                                           dockerpomvims-chrome-1
+81e017b4c71a   seleniarm/hub:4.20             "/opt/bin/entry_poin…"   8 hours ago      Up 5 hours      4442-4443/tcp, 0.0.0.0:4444->4444/tcp              dockerpomvims-hub-1
+Finished: SUCCESS

@@ -1,0 +1,53 @@
+Started by user [8mha:////4NpzpPn34pagPkHVLCegvZMDFRNXlLV3GVTKLCA4JWV9AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4A90pYhUjCtxa7qVod0yZ7jJCepVfQ3chYAilSyPEJUaAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4MBEVoNb0XHOzGBpsaXrGKpddGPxwJamEOmLx/06P7qVAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4G2VEwbJQGcow/RXNK8RM1ojRvM0ZHtsgWZjTbr+nLy0AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgYB/eT83ILSktQifT9/F1dDfQCjW1X2xQAAAA==[0mNODE1 in /Users/sangramkumar.das/Documents/git/DockerPOMVims/volumes/slave/workspace/PIPELINE_DEMO
+[8mha:////4C1Mw5LqMAVtQ42dvIcQexdIxbbNN5X1ilREA6o2FeLCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4NfegjqJgt+C74stFOyq6EBGRge1sQ5jqQBop7VdK9ljAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] isUnix
+[8mha:////4DGU1caoYgCdronlZ/pq32EqgsD1oF1Q7VpNUEuR8GhGAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0QSyIiTXKwglCEkLa6P82SWknTsTVuAOBSkxYsmRbst7zBXWKcKToeGux85i0530YXUl8othdA028pQvXhImC5dJOkow9LVVStrCIVbASsLaoAyWPLsNGtOqumqDQNeccy3YQUHkzwAOYKOSsYv6WOcL2NppE+OP8BcDcZ2C74v3nV78BmoXK/sAAAAA=[0m[Pipeline] withEnv
+[8mha:////4OV7elHhA9kr1cvD8eJR4CMi2CndvtjHoDXTM5gt+Cc5AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] {
+[8mha:////4DE8FZXP4hxvI6NG/o5Vs+1+4CjzGOCeeiEq8Et+m40YAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbamKsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4geKI23CvAAAAA==[0m[Pipeline] sh
++ docker inspect -f . alpine
+
+Error: No such object: alpine
+[8mha:////4CGK6x7IFs6CSLlweQuDcpASoDA5a/cNd7LPPlrfXBh9AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbGmOsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfLEnbbvAAAAA==[0m[Pipeline] isUnix
+[8mha:////4MJ4i0ZB8WaNWB6Z6M3ExVe5MksdDPBUO+k2Mr8ubqF0AAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDFQWiorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INt4LIyMEAAAA=[0m[Pipeline] withEnv
+[8mha:////4IRDeZ2UY6NoqhkJgBos6aJ4TMxr3vJ4AMS6oBoVkkZ+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4Lm/8L8ztHfklhuIABblCkLjvS+wfrQUsdzY4UeIoGoQAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggysXWsbBkaT4AJIoT5nwCRVJ7Iq3kH0cxYucXOvm3e8wXrGOBIQTOrcDAYO8O8m3RZLFMYro4ys3RhHWEkp5hQWVCvTgsKSgqWVDWsOGwUdo6iQZ1gy628y8ZJ1M05hfIdONSmH+EBFS/mJEP6whxgd5v6SPjz/BXA7BPUbfupvX8DpQJrNb4AAAA=[0m[Pipeline] sh
++ docker pull alpine
+Using default tag: latest
+latest: Pulling from library/alpine
+cf04c63912e1: Pulling fs layer
+cf04c63912e1: Verifying Checksum
+cf04c63912e1: Download complete
+cf04c63912e1: Pull complete
+Digest: sha256:beefdbd8a1da6d2915566fde36db9db0b524eb737fc57cd1367effd16dc0d06d
+Status: Downloaded newer image for alpine:latest
+docker.io/library/alpine:latest
+[8mha:////4D/n6op+PjV2QtoUI/7N6dYpAu+ceRxUfBkfA0wi7KVtAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyGUvHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzN4nqNv9p9o3geV5574AAAA=[0m[Pipeline] }
+[8mha:////4M3eJAh6IQ7Mi8UdJwfXx7j/znUa2T1Jvt60tw6YSyGGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7Bq/le42+AAAA[0m[Pipeline] // withEnv
+[8mha:////4IoKqilBIWU00kKlVbzhwFu+34cnPZoWp/248sQWwC5mAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBaJAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AE/1rIO9AAAA[0m[Pipeline] }
+[8mha:////4BVy0UxyEOUUf5uEBXaUuLkrEWNZW1ABYDVgLcvtLhavAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMDY1jZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0g35eCrPwACb8Ls70AAAA=[0m[Pipeline] // withEnv
+[8mha:////4BIWZuA9A5lj41DGG/yo29c5emCaI6YF0ovq75RUsmUMAAAApx+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjJCQKREVrueEFJjbGiXUX7AtJxYv4Gn8gEImKrXZWWs3zBWVOcKDkZeOwDZjrILvY+6nJgVJ7iTTIhs6yJswUndRu0GTdcUZN7GCOKGChYOmwjpQDeoaVaszdVNGgr06cpm2voAj2Bg8QajKzSfyFMcH62ttM+PP8FcDYMYgtQ7HZfY7lGw7UL0zBAAAA[0m[Pipeline] withDockerContainer
+NODE1 does not seem to be running inside a container
+$ docker run -t -d -u 502:20 -w /Users/sangramkumar.das/Documents/git/DockerPOMVims/volumes/slave/workspace/PIPELINE_DEMO -v /Users/sangramkumar.das/Documents/git/DockerPOMVims/volumes/slave/workspace/PIPELINE_DEMO:/Users/sangramkumar.das/Documents/git/DockerPOMVims/volumes/slave/workspace/PIPELINE_DEMO:rw,z -v /Users/sangramkumar.das/Documents/git/DockerPOMVims/volumes/slave/workspace/PIPELINE_DEMO@tmp:/Users/sangramkumar.das/Documents/git/DockerPOMVims/volumes/slave/workspace/PIPELINE_DEMO@tmp:rw,z -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** -e ******** alpine cat
+$ docker top 1af790ed662fb6a7b98b1c89ac40314cd043b82e8205cf5d08713265e80727f9 -eo pid,comm
+[8mha:////4PbXChXYDp/7tnziPexDNCE6G5MVw25qqWLSmIya9T9zAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] {
+[8mha:////4KWdBuIIm3rPG4Ni2LhXbjcm+4MDwKBX3gIcZmZqlf5xAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] stage
+[8mha:////4FzrkTROZ6kl4unY+8L5BRaMnpTxd5qXWFgmzv1GEyXDAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogU2BDqxBp14QShCSFp9H9JUtKJE3E17kCgEhMeLNuS9Z4vqIKHhrxmVmFvMHSGDW7UObFEvr84SszSmXWEgZxirUotSXWca0tRwayihAWHpcLOUTCoI6y4FXdRO4G6PkWftwOH0sgbPKDgmRyFj98yeVhfRxkIf5y/AJiGCOV2n223+TyrN7xWSV3CAAAA[0m[Pipeline] { (stage-1)
+[8mha:////4NrNFLnUOVX145MSOjfUfarPgkebo38ndG5Ua6DRx3qnAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICtIgqreWGF5jYGCfWnbEdkooX8TX+QCASFVusdraZ5wuWKcKRo8XWUOcoNQ6D7+20cODYXTwP2PIZG6bE3qA0g2Rt6hklZwNzihIWAlaGGs/Jkc2wFq26q8orstUpx+k7CCidvsEDCjGZs4r5C2OEzbXXienn+SuAMWQo99tP7cIbaOP4NL4AAAA=[0m[Pipeline] sh
++ wget www.google.com
+Connecting to www.google.com (142.250.71.100:80)
+saving to 'index.html'
+index.html           100% |********************************| 23630  0:00:00 ETA
+'index.html' saved
+[8mha:////4OBg7vJnF0K4nqGlZq/QACjA8oYzleHoGs8RcJgK0NxfAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKC0iIqWisNLzCJMXasO8d2cCpexNf4A4FIVGyx2tlmni9YxwBHDhqtot5QbA16N+p5YebQXx1ntHzBlimyU9io3HCnTgs2nBQsKUpYCdgoah1HQzrBVlh5l5WTpKtzCvN3EFCaboAHFGI2JxnSF6YAu9vYRaaf568AJu8TlHX9qf0b7E/nQb4AAAA=[0m[Pipeline] }
+[8mha:////4KGeDuF4oUx8NGA2O6L75CYcYw5dYIiEkLMiLPbDY9f3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AEud0rYvgAAAA==[0m[Pipeline] // stage
+[8mha:////4PQyHVVnZ+c+HDUN8pnSLZs46atXaEGsQPRnlYafBrrhAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiEAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAAHdIsr4AAAA=[0m[Pipeline] }
+$ docker stop --time=1 1af790ed662fb6a7b98b1c89ac40314cd043b82e8205cf5d08713265e80727f9
+$ docker rm -f --volumes 1af790ed662fb6a7b98b1c89ac40314cd043b82e8205cf5d08713265e80727f9
+[8mha:////4NQ+4nXcs4hhYOem155q9L0cREeOV//CqfKZ8MeZ4qk4AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwANLmr6b4AAAA=[0m[Pipeline] // withDockerContainer
+[8mha:////4A4ZBjM8NI1QivXtisouKWdp1TMA5LJINKCF9TC58X0pAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREKJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AIuskdu9AAAA[0m[Pipeline] }
+[8mha:////4C3xsNrCQ9QTnpMoBW7JoVlhhAZlHATbW+yFFWmdjta4AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRoKBAVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AJgQlXi9AAAA[0m[Pipeline] // node
+[8mha:////4PFAWwvadB9CpyxyoHQaLW+vFFEeW7EyvOYl9bnKXZhAAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkTCbGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FebkXZOUH37fCjb0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

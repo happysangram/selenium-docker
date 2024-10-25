@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite" parallel="tests" thread-count="100">
+    <listeners>
+        <listener class-name="com.Listener.TestListener"/>
+    </listeners>
+    <parameter name="jsonpath" value="vendorportal_testdata/vendor.json"></parameter>
+    <test name="test1">
+        <classes>
+            <class name="com.venderpomvims.testcases.UserDashboardsam">
+            </class>
+        </classes>
+    </test>
+    <test name="test2">
+        <classes>
+            <class name="com.venderpomvims.testcases.UserDashboardsam">
+            </class>
+        </classes>
+    </test>
+</suite>
