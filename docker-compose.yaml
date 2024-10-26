@@ -38,7 +38,7 @@ services:
     environment:
       - BROWSER=chrome
       - HUB_HOST=hub
-      - THREAD_COUNT=4
+      - THREAD_COUNT=2
       - TEST_SUITE=testng.xml
     volumes:
       - ./output/Vendor-portal:/home/selenium-docker/test-output

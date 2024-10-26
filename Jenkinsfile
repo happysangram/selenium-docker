@@ -1,24 +1,27 @@
 pipeline{
 
- agent{
-   docker{
-          image "alpine"
-   }
- }
+ agent any
 
  stages{
-   stage('stage-1'){
+
+   stage('Build Jar'){
             steps{
-               sh "wget www.google.com"
+               sh "mvn clean package -DskipTests"
             }
-   }
- }
+         }
 
- post{
-     always{
-     archiveArtifacts artifacts: 'index.html', followSymlinks: false
-     }
 
+       stage('Build Image'){
+                steps{
+                   sh "docker build -t=cooper/selenium ."
+                }
+            }
+
+       stage('Build Image'){
+                  steps{
+                      sh "docker build -t=cooper/selenium ."
+                  }
+             }
  }
 
 }

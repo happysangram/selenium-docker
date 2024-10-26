@@ -8,7 +8,7 @@ WORKDIR /home/selenium-docker
 
 # Add the required files from target/docker-resources to /home/selenium-docker
 ADD ../target/docker-resources       ./
-ADD ../runner.sh                      runner.sh
+ADD ../runner.sh                     ./
 
 #Run the test
 #ENTRYPOINT java -cp 'libs/*' \

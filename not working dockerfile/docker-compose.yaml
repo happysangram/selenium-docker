@@ -15,7 +15,7 @@ services:
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
       - SE_NODE_OVERRIDE_MAX_SESSIONS=true
-      - SE_NODE_MAX_SESSIONS=1
+      - SE_NODE_MAX_SESSIONS=4
       - SE_VNC_NO_PASSWORD=1
   firefox:
     image: seleniarm/node-firefox:4.20
@@ -29,7 +29,7 @@ services:
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
       - SE_NODE_OVERRIDE_MAX_SESSIONS=true
-      - SE_NODE_MAX_SESSIONS=1
+      - SE_NODE_MAX_SESSIONS=4
       - SE_VNC_NO_PASSWORD=1
   vendor-portal:
     image: cooper/selenium
@@ -42,3 +42,14 @@ services:
       - TEST_SUITE=testng.xml
     volumes:
       - ./output/Vendor-portal:/home/selenium-docker/test-output
+  flight-reservation:
+    image: cooper/selenium
+    depends_on:
+      - firefox
+    environment:
+      - BROWSER=firefox
+      - HUB_HOST=hub
+      - THREAD_COUNT=4
+      - TEST_SUITE=testng.xml
+    volumes:
+      - ./output/flight-reservation:/home/selenium-docker/test-output

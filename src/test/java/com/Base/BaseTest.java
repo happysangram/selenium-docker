@@ -37,12 +37,8 @@ public class BaseTest {
         }
         String urlformat=ConfigLoader.getpropertiesvalue(Constants.GRID_URL_FORMAT);
         String host=ConfigLoader.getpropertiesvalue(Constants.GRID_HUB_HOST);
-        System.out.println(urlformat+"***************************");
-        System.out.println(host+"***************************");
-        String url= String.format(urlformat,host);
-        System.out.println(host+"***************************");
-
-        System.out.println(url+"-------------------------------------");
+        String url= String.format(urlformat,"192.168.0.110");
+        System.out.println(url+"-------------------------------------"+"In Base Test");
         this.driver=new RemoteWebDriver(new URL(url),capabilities);
         return driver;
     }
