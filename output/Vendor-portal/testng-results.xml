@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-24T14:45:42 GMT" name="MyTestSuite" finished-at="2024-10-24T14:45:43 GMT" duration-ms="375">
+  <suite started-at="2024-10-26T06:50:54 GMT" name="MyTestSuite" finished-at="2024-10-26T06:50:54 GMT" duration-ms="373">
     <groups>
     </groups>
-    <test started-at="2024-10-24T14:45:42 GMT" name="Passenger-2" finished-at="2024-10-24T14:45:43 GMT" duration-ms="375">
+    <test started-at="2024-10-26T06:50:54 GMT" name="Passenger-2" finished-at="2024-10-26T06:50:54 GMT" duration-ms="373">
       <class name="com.dockerpomvims.testcases.FlightReservation">
-        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@ba54932]" started-at="2024-10-24T14:45:42 GMT" name="Beforesuite" finished-at="2024-10-24T14:45:42 GMT" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@ba54932]" started-at="2024-10-26T06:50:54 GMT" name="Beforesuite" finished-at="2024-10-26T06:50:54 GMT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Beforesuite -->
-        <test-method is-config="true" signature="BeforeTest(java.lang.String,java.lang.String)[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@ba54932]" started-at="2024-10-24T14:45:42 GMT" name="BeforeTest" finished-at="2024-10-24T14:45:42 GMT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeTest(java.lang.String,java.lang.String)[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@ba54932]" started-at="2024-10-26T06:50:54 GMT" name="BeforeTest" finished-at="2024-10-26T06:50:54 GMT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,18 +27,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method is-config="true" signature="SetDriver(org.testng.ITestContext)[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@ba54932]" started-at="2024-10-24T14:45:42 GMT" name="SetDriver" finished-at="2024-10-24T14:45:43 GMT" duration-ms="359" status="FAIL">
+        <test-method is-config="true" signature="SetDriver(org.testng.ITestContext)[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@ba54932]" started-at="2024-10-26T06:50:54 GMT" name="SetDriver" finished-at="2024-10-26T06:50:54 GMT" duration-ms="358" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2bd80ea5]]>
+                <![CDATA[org.testng.TestRunner@26741ab5]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: '946cff746b83', ip: '172.18.0.5'
+Host info: host: 'ca95291a0f99', ip: '172.18.0.5'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'aarch64', os.version: '6.10.4-linuxkit', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -47,7 +47,7 @@ Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-or
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: '946cff746b83', ip: '172.18.0.5'
+Host info: host: 'ca95291a0f99', ip: '172.18.0.5'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'aarch64', os.version: '6.10.4-linuxkit', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -142,11 +142,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetDriver -->
-        <test-method signature="Registration()[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@ba54932]" started-at="2024-10-24T14:45:43 GMT" name="Registration" finished-at="2024-10-24T14:45:43 GMT" duration-ms="0" status="SKIP">
+        <test-method signature="Registration()[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@ba54932]" started-at="2024-10-26T06:50:54 GMT" name="Registration" finished-at="2024-10-26T06:50:54 GMT" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: '946cff746b83', ip: '172.18.0.5'
+Host info: host: 'ca95291a0f99', ip: '172.18.0.5'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'aarch64', os.version: '6.10.4-linuxkit', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -155,7 +155,7 @@ Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-or
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: '946cff746b83', ip: '172.18.0.5'
+Host info: host: 'ca95291a0f99', ip: '172.18.0.5'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'aarch64', os.version: '6.10.4-linuxkit', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -250,15 +250,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registration -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@ba54932]" started-at="2024-10-24T14:45:43 GMT" name="AfterTest" finished-at="2024-10-24T14:45:43 GMT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@ba54932]" started-at="2024-10-26T06:50:54 GMT" name="AfterTest" finished-at="2024-10-26T06:50:54 GMT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
       </class> <!-- com.dockerpomvims.testcases.FlightReservation -->
     </test> <!-- Passenger-2 -->
-    <test started-at="2024-10-24T14:45:42 GMT" name="Passenger-1" finished-at="2024-10-24T14:45:43 GMT" duration-ms="375">
+    <test started-at="2024-10-26T06:50:54 GMT" name="Passenger-1" finished-at="2024-10-26T06:50:54 GMT" duration-ms="373">
       <class name="com.dockerpomvims.testcases.FlightReservation">
-        <test-method is-config="true" signature="BeforeTest(java.lang.String,java.lang.String)[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@5f8edcc5]" started-at="2024-10-24T14:45:42 GMT" name="BeforeTest" finished-at="2024-10-24T14:45:42 GMT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforeTest(java.lang.String,java.lang.String)[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@5f8edcc5]" started-at="2024-10-26T06:50:54 GMT" name="BeforeTest" finished-at="2024-10-26T06:50:54 GMT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -274,18 +274,18 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTest -->
-        <test-method is-config="true" signature="SetDriver(org.testng.ITestContext)[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@5f8edcc5]" started-at="2024-10-24T14:45:42 GMT" name="SetDriver" finished-at="2024-10-24T14:45:43 GMT" duration-ms="359" status="FAIL">
+        <test-method is-config="true" signature="SetDriver(org.testng.ITestContext)[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@5f8edcc5]" started-at="2024-10-26T06:50:54 GMT" name="SetDriver" finished-at="2024-10-26T06:50:54 GMT" duration-ms="358" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1135e63f]]>
+                <![CDATA[org.testng.TestRunner@598a1da]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: '946cff746b83', ip: '172.18.0.5'
+Host info: host: 'ca95291a0f99', ip: '172.18.0.5'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'aarch64', os.version: '6.10.4-linuxkit', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -294,7 +294,7 @@ Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-or
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: '946cff746b83', ip: '172.18.0.5'
+Host info: host: 'ca95291a0f99', ip: '172.18.0.5'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'aarch64', os.version: '6.10.4-linuxkit', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -389,11 +389,11 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetDriver -->
-        <test-method signature="Registration()[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@5f8edcc5]" started-at="2024-10-24T14:45:43 GMT" name="Registration" finished-at="2024-10-24T14:45:43 GMT" duration-ms="0" status="SKIP">
+        <test-method signature="Registration()[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@5f8edcc5]" started-at="2024-10-26T06:50:54 GMT" name="Registration" finished-at="2024-10-26T06:50:54 GMT" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: '946cff746b83', ip: '172.18.0.5'
+Host info: host: 'ca95291a0f99', ip: '172.18.0.5'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'aarch64', os.version: '6.10.4-linuxkit', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -402,7 +402,7 @@ Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-or
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: '946cff746b83', ip: '172.18.0.5'
+Host info: host: 'ca95291a0f99', ip: '172.18.0.5'
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Linux', os.arch: 'aarch64', os.version: '6.10.4-linuxkit', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
@@ -497,7 +497,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registration -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@5f8edcc5]" started-at="2024-10-24T14:45:43 GMT" name="AfterTest" finished-at="2024-10-24T14:45:43 GMT" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:com.dockerpomvims.testcases.FlightReservation@5f8edcc5]" started-at="2024-10-26T06:50:54 GMT" name="AfterTest" finished-at="2024-10-26T06:50:54 GMT" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
