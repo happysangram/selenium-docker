@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    environment {
-        DOCKER_HUB = credentials('dockerhub-cred')
-    }
-
     stages {
         stage('Build Jar') {
             steps {
@@ -19,9 +15,14 @@ pipeline {
         }
 
         stage('Image Push') {
+
+         environment{
+                        DOCKER_HUB = credentials('dockerhub-creds')
+                    }
             steps {
-                sh 'docker login -u ${DOCKER_HUB_USR} -p ${DOCKER_HUB_PSW}'
-                sh 'docker push cooper/selenium'
+
+              sh 'echo ${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
+              sh 'docker push cooper/selenium'
             }
         }
     }
