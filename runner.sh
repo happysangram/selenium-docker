@@ -38,7 +38,7 @@ echo "Selenium Grid is up and running. Running the test...."
 java -cp 'libs/*' \
      -Dselenium.grid.enabled=true \
      -Dselenium.grid.hubHost="${HUB_HOST:-hub}" \
-     -Dbrowser="${BROWSER:-chrome}" \
+     -Dbrowser="${BROWSER:-firefox}" \
      org.testng.TestNG \
-     -threadcount "${THREAD_COUNT:-1}" \
+     -threadcount "${THREAD_COUNT:-4}" \
      test-suites/"${TEST_SUITE}"

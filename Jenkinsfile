@@ -10,19 +10,19 @@ pipeline {
 
         stage('Build Image') {
             steps {
-                sh 'docker build -t cooper/selenium .'
+                sh 'docker build -t=sangram1989/selenium-docker:latest .'
             }
         }
 
         stage('Image Push') {
 
          environment{
-                        DOCKER_HUB = credentials('dockerhub-creds')
+                        DOCKER_HUB = credentials('dockercred')
                     }
             steps {
 
-              sh 'echo ${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
-              sh 'docker push cooper/selenium'
+                sh 'echo ${DOCKER_HUB_PSW} | docker login -u ${DOCKER_HUB_USR} --password-stdin'
+              sh 'docker push sangram1989/selenium-docker:latest'
             }
         }
     }
