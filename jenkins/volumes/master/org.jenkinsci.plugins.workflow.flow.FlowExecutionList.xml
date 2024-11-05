@@ -1,2 +1,7 @@
 <?xml version='1.1' encoding='UTF-8'?>
-<list/>
+<list>
+  <flow-owner plugin="workflow-job@1436.vfa_244484591f">
+    <job>SELENIUM_DOCKER_BUILDER</job>
+    <id>50</id>
+  </flow-owner>
+</list>
