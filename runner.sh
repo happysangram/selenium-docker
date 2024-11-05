@@ -34,11 +34,10 @@ done
 # At this point, selenium grid should be up!
 echo "Selenium Grid is up and running. Running the test...."
 
-# Start the java command
 java -cp 'libs/*' \
      -Dselenium.grid.enabled=true \
-     -Dselenium.grid.hubHost="${HUB_HOST:-hub}" \
+     -Dselenium.grid.hubhost="${HUB_HOST:-hub}" \
      -Dbrowser="${BROWSER:-firefox}" \
      org.testng.TestNG \
-     -threadcount "${THREAD_COUNT:-4}" \
+     -threadcount "${THREAD_COUNT:-10}" \
      test-suites/"${TEST_SUITE}"
