@@ -1,4 +1,4 @@
-package com.utils;
+package com.solarready.utils;
 
 import java.io.InputStream;
 import java.util.Properties;
